@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-bottom: solid 1px #ffd400;
+    background-color: #f5f3f0;
+}
+
+.logo {
+    height: 60%;
+    margin-left: 20px;
+}
+
+.titulo {
+    margin: 40px 0px 40px 0px;
+    color: #00416b;
+}
+
+.digite-cep {
+    margin: 10px 0px 5px 0px;
+    font-size: 14px;
+}
+
+.principal {
+    width: 500px;
+    height: 250px;
+    margin-left: 20vw;
+}
+
+.campo-cep {
+    width: 300px;
+    height: 30px;
+    border: solid 1px grey;
+    border-radius: 4px;
+}
+
+.botao {
+    margin-top: 20px;
+}
+
+.botao-buscar {
+    width: 75px;
+    height: 30px;
+    background-color: #1766cfdc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.botao-buscar:hover {
+    background-color: #1766cf;
+}
+
+.botao-buscar:active {
+    border: solid 2px black;
+}
+
+.container-tabela {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela {
+    border-collapse: collapse;
+    width: 1000px;
+    font-size: 14px;
+}
+
+.cabecalho-tabela {
+    height: 50px;
+    color: white;
+    background-color: #0071ad;
+    text-align: left;
+}
+
+.corpo-tabela td {
+    height: 50px;
+}

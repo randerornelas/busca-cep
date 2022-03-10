@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Busca CEP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo " src="img/logo-correios.png" alt="Correios">
+    </header>
+    <div class="principal">
+        <h2 class="titulo">Busca CEP</h2>
+        <h5 class="digite-cep">Digite um CEP:</h5>
+        <input class="campo-cep" type="text" name="campo-cep">
+        <div class="botao">
+            <button class="botao-buscar">Buscar</button>
+        </div>
+    </div>
+    <div class="container-tabela">
+        <table class="tabela">
+            <thead class="cabecalho-tabela">
+                <tr>
+                    <th>Logradouro</th>
+                    <th>Bairro</th>
+                    <th>Cidade</th>
+                    <th>UF</th>
+                </tr>
+            </thead>
+            <tbody class="corpo-tabela">
+                <tr>
+                    <td class="td-logradouro"></td>
+                    <td class="td-bairro"></td>
+                    <td class="td-cidade"></td>
+                    <td class="td-uf"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
